@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Apig (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Apig Win64 Debug Build",
+			"program": "D:\\QinJunyou\\UE4\\test\\Apig\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\ProgramFiles\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Apig (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Apig Win64 DebugGame Build",
+			"program": "D:\\QinJunyou\\UE4\\test\\Apig\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\ProgramFiles\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Apig (Development)",
+			"request": "launch",
+			"preLaunchTask": "Apig Win64 Development Build",
+			"program": "D:\\QinJunyou\\UE4\\test\\Apig\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\ProgramFiles\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Apig (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Apig Win64 Shipping Build",
+			"program": "D:\\QinJunyou\\UE4\\test\\Apig\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\ProgramFiles\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Apig (Test)",
+			"request": "launch",
+			"preLaunchTask": "Apig Win64 Test Build",
+			"program": "D:\\QinJunyou\\UE4\\test\\Apig\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\ProgramFiles\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ApigEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ApigEditor Win64 Debug Build",
+			"program": "D:\\ProgramFiles\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\QinJunyou\\UE4\\test\\Apig\\Apig.uproject"
+			],
+			"cwd": "D:\\ProgramFiles\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ApigEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ApigEditor Win64 DebugGame Build",
+			"program": "D:\\ProgramFiles\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\QinJunyou\\UE4\\test\\Apig\\Apig.uproject"
+			],
+			"cwd": "D:\\ProgramFiles\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ApigEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ApigEditor Win64 Development Build",
+			"program": "D:\\ProgramFiles\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\QinJunyou\\UE4\\test\\Apig\\Apig.uproject"
+			],
+			"cwd": "D:\\ProgramFiles\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\ProgramFiles\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\QinJunyou\\UE4\\test\\Apig\\Apig.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\ProgramFiles\\UE_4.25"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"D:/QinJunyou/UE4/test/Apig/.vscode": true,
+		"D:/QinJunyou/UE4/test/Apig/Content": true,
+		"D:/QinJunyou/UE4/test/Apig/DerivedDataCache": true,
+		"D:/QinJunyou/UE4/test/Apig/Intermediate": true,
+		"D:/QinJunyou/UE4/test/Apig/Saved": true
+	}
+}
